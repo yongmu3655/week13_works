@@ -1,0 +1,382 @@
+
+html, body{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    width:100%;
+    height:100%;
+}
+
+.bg {
+    position: relative;
+    width:100%;
+    height:100%;
+}
+
+
+.star1 {
+    position: absolute;
+    height: 50px;
+    transform: rotate(30deg);
+
+    animation: star1 5s infinite;
+    animation-timing-function: linear;
+}
+
+.star2 {
+    position: absolute;
+    height: 70px;
+    top:-100px;
+    right:200px;
+    transform: rotate(40deg);
+
+    animation: star2 8s infinite;
+    animation-delay: 1.5s;
+    animation-timing-function: linear;
+}
+
+.star3 {
+    position: absolute;
+    height: 90px;
+    top: 45px;
+    left: 80px;
+    transform: rotate(45deg);
+}
+
+.star4 {
+    position: absolute;
+    height: 60px;
+    top:-100px;
+    right:500px;
+    transform: rotate(45deg);
+
+    animation: star4 4s infinite;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+}
+
+.star5 {
+    position: absolute;
+    height: 60px;
+    top:-100px;
+    transform: rotate(45deg);
+
+    animation: star5 4s infinite;
+    animation-timing-function: linear;
+}
+
+.star6 {
+    position: absolute;
+    width: 18px;
+    top:-100px;
+    transform: rotate(45deg);
+
+    animation: star6 4s infinite;
+    animation-timing-function: linear;
+}
+
+.dot1 {
+    position: absolute;
+    height: 10px;
+    top: 50px;
+    left: 300px;
+    animation: dot1 5s infinite;
+}
+
+.dot2 {
+    position: absolute;
+    height: 15px;
+    top: 250px;
+    left: 600px;
+    animation: dot2 7s infinite;
+}
+
+.dot3 {
+    position: absolute;
+    height: 5px;
+    top: 50px;
+    right: 100px;
+}
+
+.dot4 {
+    position: absolute;
+    height: 5px;
+    top: 250px;
+    left: 400px;
+}
+
+.dot5 {
+    position: absolute;
+    height: 5px;
+    top: 100px;
+    left: 500px;
+}
+
+.dot6 {
+    position: absolute;
+    height: 7px;
+    top: 120px;
+    left: 700px;
+
+    animation: dot6 5s infinite;
+}
+
+.dot7 {
+    position: absolute;
+    height:3px;
+    top: 300px;
+    left: 500px;
+}
+
+.dot8 {
+    position: absolute;
+    height: 5px;
+    top: 100px;
+    left: 900px;
+}
+
+.dot9 {
+    position: absolute;
+    height: 8px;
+    top: 130px;
+    left: 1150px;
+}
+
+.dot10 {
+    position: absolute;
+    height: 20px;
+    top: 160px;
+    left: 1300px;
+
+    animation: dot10 10s infinite;
+}
+
+.dot11 {
+    position: absolute;
+    height: 5px;
+    top: 145px;
+    left: 600px;
+}
+
+.dot12 {
+    position: absolute;
+    height: 5px;
+    top: 200px;
+    left: 1200px;
+}
+
+.dot13 {
+    position: absolute;
+    height: 5px;
+    top: 220px;
+    left: 1050px;
+}
+
+.dot14 {
+    position: absolute;
+    height: 5px;
+    top: 170px;
+    left: 850px;
+}
+
+.dot15 {
+    position: absolute;
+    height: 5px;
+    top: 80px;
+    left: 1220px;
+}
+
+.text1 {
+    position: absolute;
+    top: -30px;
+    left: 120px;
+    font-size: 75px;
+    color: white;
+    font-family: 'Song Myung', serif;
+    letter-spacing: 5px;
+}
+
+.text2{
+    position: absolute;
+    top: 650px;
+    left: 120px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Song Myung', serif;
+}
+
+.text3 {
+    position: absolute;
+    top: 646px;
+    left: 835px;
+    font-size: 17;
+    color: white;
+    font-family: 'Song Myung', serif;
+}
+
+.text4 {
+    position: absolute;
+    top: 650px;
+    right: 50px;
+    font-size: 14px;
+    color: white;
+    font-family: 'Song Myung', serif;
+}
+
+.text5 {
+    position: absolute;
+    top: 665px;
+    left: 835px;
+    font-size: 17;
+    color: white;
+    font-family: 'Song Myung', serif;
+}
+
+.text6 {
+    position: absolute;
+    top: 669px;
+    right: 230px;
+    font-size: 14px;
+    color: white;
+    font-family: 'Song Myung', serif;
+}
+
+.text7 {
+    position: absolute;
+    top: 297px;
+    left: 300px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Song Myung', serif;
+}
+
+.text8 {
+    position: absolute;
+    top: 293px;
+    left: 298px;
+    font-size: 45px;
+    color: white;
+    font-family: 'Song Myung', serif;
+}
+
+.text9 {
+    position: absolute;
+    top: 365px;
+    left: 300px;
+    font-size: 21px;
+    color: white;
+    font-family: 'Song Myung', serif;
+}
+
+@keyframes star1 {
+    from {
+        top: 100px;
+        right: 20px;
+    }
+    to {
+        top: 350px;
+        right:150px;
+    }
+}
+
+
+@keyframes star2 {
+    from {
+        top: 0px;
+        right: 200px;
+    }
+    to {
+        top: 520px;
+        right:700px;
+    }
+}
+
+@keyframes star4 {
+    from {
+        top: 0px;
+        right: 500px;
+    }
+    to {
+        top: 420px;
+        right:1000px;
+    }
+}
+
+@keyframes star5 {
+    from {
+        top: 0px;
+        right: 900px;
+    }
+    to {
+        top: 420px;
+        right:1400px;
+    }
+}
+
+@keyframes star6 {
+    from {
+        top: 0px;
+        right: 400px;
+    }
+    to {
+        top: 350px;
+        right:700px;
+    }
+}
+
+
+@keyframes dot1 {
+    0% {
+        opacity: 0.4;
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 0.4;
+    }
+}
+
+@keyframes dot2 {
+    0% {
+        opacity: 0.2;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.2;
+    }
+}
+
+@keyframes dot6 {
+    0% {
+        opacity: 0.4;
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 0.4;
+    }
+}
+
+@keyframes dot10 {
+    0% {
+        opacity: 0.4;
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 0.4;
+    }
+}
